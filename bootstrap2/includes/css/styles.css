@@ -1,0 +1,190 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+   .img1
+{
+    position: relative;
+    overflow: hidden;
+}
+
+
+.text1 {
+
+  position: absolute;
+    width: 352px;
+    height: 177px;
+    top: 4px;
+    left: 21px;
+    color: #FED;
+    background-color: rgba(0,0,0,0.45);
+    padding: 2px;
+
+}
+.heading
+{
+  padding-top: 15px;
+}
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+   #myCarousel {
+   	margin-top: 25px;
+   }
+
+   .carousel-caption {
+   	font-size: 24px;
+   }
+
+   .carousel-caption h4 {
+   	font-size: 32px;
+   }
+
+   #myCarousel .item { height: 400px; }
+
+   #slide1 {
+   	background: url('medium1.jpg') top no-repeat;
+   }
+
+   #slide2 {
+   	background: url('medium2.jpg') top center no-repeat;
+   }
+
+   #slide3 {
+   	background: url('medium3.jpg') top center no-repeat;
+   }
+
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+h3
+{
+  text-align: center;
+}
+footer
+{
+  margin-top: 45px;
+  background:gainsboro ;
+  border-top: solid 3px gainsboro;
+
+}
+
+#splitter
+{
+  padding: 0px;
+}
+.footer1 ul li
+{
+  display: block;
+  display: inline;
+
+}
+.footer1 ul
+{
+  padding-left: 0px;
+}
+a.navbar-brand
+{
+  font-family: 'Great Vibes', cursive;
+  font-size: 38px;
+  color: #b7864e;
+}
+button{
+  margin-top: 10px;
+}
+
+
+   /* --------------------------------------
+    panels
+      -------------------------------------- */
+#img1
+{
+  background: url("wardrobe.jpg")no-repeat;
+
+  padding-left: 0px;
+}
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+	#myCarousel .item { height: 310px; }
+
+	#slide1 {
+		background: url('small1.jpg') top center no-repeat;
+	}
+
+	#slide2 {
+		background: url('small2.jpg') top center no-repeat;
+	}
+
+	#slide3 {
+		background: url('small3.jpg') top center no-repeat;
+	}
+
+	.carousel-caption {
+		font-size: 16px;
+	}
+
+	.carousel-caption h4 {
+		font-size: 22px;
+	}
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+	#myCarousel .item { height: 500px; }
+
+	#slide1 {
+		background: url('large1.jpg') top center no-repeat;
+	}
+
+	#slide2 {
+		background: url('large2.jpg') top center no-repeat;
+	}
+
+	#slide3 {
+		background: url('large3.jpg') top center no-repeat;
+	}
+
+}
